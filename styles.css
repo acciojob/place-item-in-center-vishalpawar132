@@ -9,6 +9,7 @@ body {
 .holder {
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .item {
@@ -17,6 +18,3 @@ body {
   background-color: lightgray;
 }
 
-.item-1 {
-  align-self: center;
-}

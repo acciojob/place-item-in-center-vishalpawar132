@@ -1,2 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-/* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding: 20px;
+  margin: 10px;
+  background-color: lightgray;
+}
+
+.item-1 {
+  align-self: center;
+}

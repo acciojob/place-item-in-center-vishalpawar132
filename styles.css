@@ -3,13 +3,13 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  
 }
 
 .holder {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  justify-content: center;
 }
 
 .item {
@@ -18,3 +18,6 @@ body {
   background-color: lightgray;
 }
 
+.item-1 {
+  align-self: center;
+}
